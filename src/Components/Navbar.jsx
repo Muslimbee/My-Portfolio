@@ -64,11 +64,11 @@ const Nav = () => {
             <BsPerson /> About
           </Link>
         </li>
-        <li onClick={hideMenu}>
-          {/* <Link to="/Project">
+        {/* <li onClick={hideMenu}>
+          <Link to="/Project">
             <BsCodeSlash /> Projects
-          </Link> */}
-        </li>
+          </Link>
+        </li> */}
         <li onClick={hideMenu}>
           <Link to="/Contact">
             <CgPhone />
